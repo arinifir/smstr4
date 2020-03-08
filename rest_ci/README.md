@@ -112,10 +112,10 @@ Langkat 5: Pengujian
         }
     }
     ```
-    Untuk mengujinya buka Postman, pilih metode PUT, masukan http://127.0.0.1/rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key id dan value id yang akan diubah (8) diikuti key dan value selanjutnya, lalu klik "Send".
+    Untuk mengujinya buka Postman, pilih metode PUT, masukan http://127.0.0.1/rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key id dan value id yang akan diubah (8) diikuti key dan value selanjutnya yang akan diubah, lalu klik "Send".
 
 4. Metode DELETE
-    Metode DELETE digunakan untuk menghapus data yang telah ada di server REST API. Sebagai contohnya digunakan untuk menghapus data dengan id 88 pada tabel telepon database kontak. 
+    Metode DELETE digunakan untuk menghapus data yang telah ada di server REST API. Sebagai contohnya digunakan untuk menghapus data dengan id 8 pada tabel telepon database kontak. 
     ```php
     function index_delete() {
         $id = $this->delete('id');
@@ -128,7 +128,7 @@ Langkat 5: Pengujian
         }
     }
     ```
-    Untuk mengujinya buka Postman, pilih metode DELETE, masukan http://127.0.0.1/rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key id dan value id yang akan dihapus (88), lalu klik "Send".
+    Untuk mengujinya buka Postman, pilih metode DELETE, masukan http://127.0.0.1/rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key id dan value id yang akan dihapus (8), lalu klik "Send".
 
 Dan berikut adalah full code pada ../controllers/kontak.php
 
