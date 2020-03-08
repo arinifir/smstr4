@@ -50,6 +50,7 @@ Langkah 3: Membuat file Controller pada application/controllers dengan nama kont
             ```
 Langkah 4: Download dan Install Aplikasi Postman untuk menguji metode-metode
 link: https://www.postman.com/downloads/
+Postman merupakan tool wajib bagi para developer yang berkutat pada pembuatan API, fungsi utama postman ini adalah sebagai GUI API Caller namun sekarang postman juga menyadiakan fitur lain yaitu Sharing Collection API for Documentation (free), Testing API (free), Realtime Collaboration Team (paid), Monitoring API (paid), Integration (paid). Dulu awal pertama kali postman muncul sebagai add on dari Chrome namun sekarang sudah menjadi aplikasi native. Jika kalian sedang develop API sangat direkomendasikan untuk menggunakan Postman.
 
 Langkat 5: Pengujian
 
