@@ -200,7 +200,3 @@ class Kontak extends REST_Controller {
 }
 ?>
 ```
-
-
-
-
