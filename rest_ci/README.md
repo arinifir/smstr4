@@ -74,7 +74,7 @@ Langkat 5: Pengujian
     Untuk menguji kode yang telah dibuat buka Postman, Pilih metode GET, masukan http://127.0.0.1/rest_ci/index.php/kontak pada address bar lalu klik "Send"
 
 2. Metode POST
-    Metode POST digunakan untuk mengirimkan data baru dari client ke server REST API. Sebagai contohnya digunakan untuk menambahkan kontak baru yang terdiri dari id, nama, dan nomor. 
+    digunakan untuk mengirimkan data baru dari client ke server REST API. Sebagai contohnya digunakan untuk menambahkan kontak baru yang terdiri dari id, nama, dan nomor. 
     Tambahkan function post berikut pada controllers kontak.php
 
     ```php
@@ -94,7 +94,7 @@ Langkat 5: Pengujian
     Untuk mengujinya buka Postman, pilih metode POST, masukan http://127.0.0.1/rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key dan value yang diperlukan (id, nama, nomor), lalu klik "Send".
 
 3. Metode PUT
-    Metode PUT digunakan untuk memperbarui data yang telah ada di server REST API. Sebagai contohnya digunakan untuk memperbarui data dengan id 88 pada tabel telepon database kontak.
+    digunakan untuk memperbarui data yang telah ada di server REST API. Sebagai contohnya digunakan untuk memperbarui data dengan id 88 pada tabel telepon database kontak.
     Tambahkan function put berikut pada controllers kontak.php
 
     ```php
@@ -116,7 +116,7 @@ Langkat 5: Pengujian
     Untuk mengujinya buka Postman, pilih metode PUT, masukan http://127.0.0.1/rest_ci/index.php/kontak pada address bar, klik "Body" pada menu dibawah address bar, pilih x-www-form-urlencoded, masukan key id dan value id yang akan diubah (8) diikuti key dan value selanjutnya yang akan diubah, lalu klik "Send".
 
 4. Metode DELETE
-    Metode DELETE digunakan untuk menghapus data yang telah ada di server REST API. Sebagai contohnya digunakan untuk menghapus data dengan id 8 pada tabel telepon database kontak. 
+    digunakan untuk menghapus data yang telah ada di server REST API. Sebagai contohnya digunakan untuk menghapus data dengan id 8 pada tabel telepon database kontak. 
     ```php
     function index_delete() {
         $id = $this->delete('id');
